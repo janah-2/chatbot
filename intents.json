@@ -1,0 +1,93 @@
+{"intents": [
+        {"tag": "greeting",
+        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "hey"],
+        "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+        "context_set": ""
+        },
+        {"tag": "goodbye",
+        "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Bye"],
+        "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+        "context_set": ""
+        },
+        {"tag": "question1",
+        "patterns": ["Tell me about yourself."],
+        "responses": ["Start out by giving them an overview of your current position or activities, then provide the most important and relevant highlights from your background that make you most qualified for the role.\n\nAn example response: 'I'm a senior at Georgia Tech, majoring in biomedical engineering. Ever since I was a kid, I've wanted to work in the field of prosthetics. I saw first-hand how a prosthetic limb helped give my best friend a normal teenage life, and I've always wanted to be a part of that process. I'm drawn to prosthetic design and research, which is why I'm so excited to learn more about the internship your company is offering.'"],
+        "context_set": ""
+        },
+        {"tag": "question2",
+        "patterns": ["Why do you want to work here?"],
+        "responses": ["Interviewers often ask this question as a way to determine whether or not you took the time to research the company and to learn why you see yourself as a good fit. The best way to prepare for this question is to do your homework and learn about the products, services, mission, history and culture of this workplace. In your answer, mention the aspects of the company that appeal to you and align with your career goals. Explain why you're looking for these things in an employer.\n\nAn example response: The company's mission to help college grads pay off their student loan debt speaks to me. I've been in that situation and I'd love the opportunity to work with a company that's making a difference. Finding a company with a positive work environment and values that align with my own has remained a priority throughout my job search and this company ranks at the top of the list."],
+        "context_set": ""
+        },
+        {"tag": "question3",
+        "patterns": ["What motivates you?"],
+        "responses": ["Employers ask this question to gauge your level of self-awareness and ensure your sources of motivation align with the role. To answer, be as specific as possible, provide real-life examples and tie your answer back to the job role.\n\nAn example response: Making a true difference in the lives of my patients and their families motivates me to strive for excellence in everything I do. I look forward to seeing my patient's reactions when we get a positive outcome that will change their lives forever. That's why I became a nurse and why I'm pursuing a position in pediatrics."],
+        "context_set": ""
+        },
+        {"tag": "question4",
+        "patterns": ["What are you passionate about"],
+        "responses": ["Employers might ask what you are passionate about to better understand what drives you and what you care most deeply about. This can both help them understand whether you are a good fit for the role and if it fits into your larger goals. To answer, select something you are genuinely passionate about, explain why you're passionate about it, give examples of how you've pursued this passion and relate it back to the job.\n\nAn example response: I am passionate about computers. That is why I chose my major of computer engineering in the first place. I am also interested in AI and Machine learning, not only because I feel they are the future, but also because they genuinely interest me. I've pursued that passion by creating a chatbot using python to further my skills and experience in ML. I also joined a club in Georgia Tech called RoboJackets, on a team called RoboNav, where we program a robot to drive through a course and avoid obstacles, which uses AI. This made me learn C++ and further my interest in Robotics, Computer Engineering, and AI."],
+        "context_set": ""
+        },
+        {"tag": "question5",
+        "patterns": ["What are your strengths?"],
+        "responses": ["This question gives you an opportunity to talk about both your technical and soft skills. To answer, share qualities and personal attributes and then relate them back to the role for which you're interviewing.\n\nAn example response: I'm a natural problem-solver. I find it rewarding to dig deep and uncover solutions to challenges—it's like solving a puzzle. It's something I've always excelled at and something I enjoy. Much of product development is about finding innovative solutions to challenging issues, which is what drew me to this career path in the first place."],
+        "context_set": ""
+        },
+        {"tag": "question6",
+        "patterns": ["What are your weaknesses?"],
+        "responses": ["It can feel awkward to discuss your weaknesses in an environment where you're expected to focus on your accomplishments. However, when answered correctly, sharing your weaknesses can show that you are self-aware and want to continuously get better at your job—traits that are extremely attractive to many employers. Remember to start with the weakness and then discuss the measures you've taken to improve. This way, you're finishing your answer on a positive note.\n\nAn example response: Earlier in my career I noticed that because I was so enthusiastic about my work, I had a tendency to say 'yes' when I should have been saying 'no'. At one point I ended up so overwhelmed by my workload and taking on so many projects that I was working evenings and weekends. It was stressful and that stress affected my production quality. I realized this was counterproductive so I started using workload management tools to set better expectations for myself and my teammates."],
+        "context_set": ""
+        },
+        {"tag": "question7",
+        "patterns": ["What are your goals for the future?"],
+        "responses": ["Hiring managers often ask about your future goals to determine whether or not you're looking to stay with the company long-term. Additionally, this question is used to gauge your ambition, expectations for your career and your ability to plan ahead. The best way to handle this question is to determine your current career trajectory and how this role plays into helping you reach your ultimate goals.\n\nAn example response: I would like to continue developing my marketing expertise over the next several years. One of the reasons I'm interested in working for a fast-growing startup company is that I'll have the ability to wear many hats and collaborate with many different departments. I believe this experience will serve me well in achieving my ultimate goal of someday leading a marketing department."],
+        "context_set": ""
+        },
+        {"tag": "question8",
+        "patterns": ["Where do you see yourself in five years?"],
+        "responses": ["Understanding how you imagine your life in the future can help employers understand whether the trajectory of the role and company fits in with your personal development goals. To answer, provide general ideas about the skills you want to develop, the types of roles you would like to be in and things you would like to have accomplished.\n\nAn example response: In five years, I'd like to be an industry expert in my field, able to train and mentor students and entry-level designers alike. I would also like to gain specialized expertise in user experience to be a well-rounded contributor working with design and marketing teams on large-scale projects that make a difference both in the company and the global community."],
+        "context_set": ""
+        },
+        {"tag": "questions you can ask",
+        "patterns": ["what are some questions I can be asked in an interview?"],
+        "responses": ["Questions include: 'Tell me about yourself', 'Why do you want to work here?', 'What motivates you?', 'What are you passionate about?', 'What are your strengths?', 'What are your weaknesses?', 'What are your goals for the future?', 'Where do you see yourself in five years?'. Go ahead and ask me some of these questions so you could see some sample responses and learn how to repsond."],
+        "context_set": ""
+        },
+        {"tag": "practice_question_1",
+        "patterns": ["I am passionate about"],
+        "responses": ["I am passionate about computers. That is why I chose my major of computer engineering in the first place. I am also interested in AI and Machine learning, not only because I feel they are the future, but also because they genuinely interest me. I've pursued that passion by creating a chatbot using python to further my skills and experience in ML. I also joined a club in Georgia Tech called RoboJackets, on a team called RoboNav, where we program a robot to drive through a course and avoid obstacles, which uses AI. This made me learn C++ and further my interest in Robotics, Computer Engineering, and AI."],
+        "context_set": ""
+        },
+        {"tag": "practice_question_2",
+        "patterns": ["I want to work here because"],
+        "responses": ["I want to work here because the company's mission to help college grads pay off their student loan debt speaks to me. I've been in that situation and I'd love the opportunity to work with a company that's making a difference. Finding a company with a positive work environment and values that align with my own has remained a priority throughout my job search and this company ranks at the top of the list."],
+        "context_set": ""
+        },
+        {"tag": "practice_question_3",
+        "patterns": ["What motivates me is"],
+        "responses": ["What motivates me is making a true difference in the lives of my patients and their families motivates me to strive for excellence in everything I do. I look forward to seeing my patient's reactions when we get a positive outcome that will change their lives forever. That's why I became a nurse and why I'm pursuing a position in pediatrics."],
+        "context_set": ""
+        },
+        {"tag": "practice_question_4",
+        "patterns": ["One of my strengths is"],
+        "responses": ["One of my strengths is that I'm a natural problem-solver. I find it rewarding to dig deep and uncover solutions to challenges—it's like solving a puzzle. It's something I've always excelled at and something I enjoy. Much of product development is about finding innovative solutions to challenging issues, which is what drew me to this career path in the first place."],
+        "context_set": ""
+        },
+        {"tag": "practice_question_5",
+        "patterns": ["One of my weaknesses is"],
+        "responses": ["One of my weaknesses is that earlier in my career I noticed that because I was so enthusiastic about my work, I had a tendency to say 'yes' when I should have been saying 'no'. At one point I ended up so overwhelmed by my workload and taking on so many projects that I was working evenings and weekends. It was stressful and that stress affected my production quality. I realized this was counterproductive so I started using workload management tools to set better expectations for myself and my teammates."],
+        "context_set": ""
+        },
+        {"tag": "practice_question_6",
+        "patterns": ["My goal for the future is"],
+        "responses": ["My goal for the future is that I would like to continue developing my marketing expertise over the next several years. One of the reasons I'm interested in working for a fast-growing startup company is that I'll have the ability to wear many hats and collaborate with many different departments. I believe this experience will serve me well in achieving my ultimate goal of someday leading a marketing department."],
+        "context_set": ""
+        },
+        {"tag": "practice_question_7",
+        "patterns": ["In five years, I see myself"],
+        "responses": ["In five years, I see myself as an industry expert in my field, able to train and mentor students and entry-level designers alike. I would also like to gain specialized expertise in user experience to be a well-rounded contributor working with design and marketing teams on large-scale projects that make a difference both in the company and the global community."],
+        "context_set": ""
+        }
+]
+}
